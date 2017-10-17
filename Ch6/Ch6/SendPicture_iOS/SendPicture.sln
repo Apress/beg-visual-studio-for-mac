@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendPicture", "SendPicture\SendPicture.csproj", "{E55C1E38-7090-43BE-9D67-021DB68134B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Release|iPhone.Build.0 = Release|iPhone
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E55C1E38-7090-43BE-9D67-021DB68134B0}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

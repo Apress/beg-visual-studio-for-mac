@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{E55C1E38-7090-43BE-9D67-021DB68134B0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendPicture/ViewController.cs">
+    <Files>
+      <File FileName="SendPicture/Info.plist" />
+      <File FileName="SendPicture/Main.cs" Line="14" Column="6" />
+      <File FileName="SendPicture/ViewController.cs" Line="99" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SendPicture PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B47F67DC-2337-4428-97C8-BF379984DA67" />
+</Properties>

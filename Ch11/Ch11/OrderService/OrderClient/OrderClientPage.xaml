@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OrderClient" x:Class="OrderClient.OrderClientPage">
+    <StackLayout>
+        <ListView x:Name="OrdersListView" ItemsSource="{Binding}"
+                  ItemSelected="OrdersListView_ItemSelected">
+            <ListView.HasUnevenRows>
+              <OnPlatform iOS="false" Android="true" 
+                          x:TypeArguments="x:Boolean"/>    
+            </ListView.HasUnevenRows>
+            <ListView.RowHeight>
+              <OnPlatform iOS="120" x:TypeArguments="x:Int32"/>    
+            </ListView.RowHeight>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Margin="5">
+                                <Entry Text="{Binding OrderDescription, Mode=TwoWay}"
+                                 Placeholder="Enter description"/>
+                                <DatePicker Date="{Binding OrderDate, Mode=TwoWay}"/>
+                                <Entry Text="{Binding CustomerName, Mode=TwoWay}"
+                                 Placeholder="Enter customer"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal">
+          <Button x:Name="AddButton" Clicked="AddButton_Clicked" Text="Add order"/>
+          <Button x:Name="SaveButton" Clicked="SaveButton_Clicked" Text="Save"/>
+          <Button x:Name="DeleteButton" Clicked="DeleteButton_Clicked" Text="Delete"/>
+        </StackLayout>
+    </StackLayout>
+
+    <ContentPage.Padding>
+        <OnPlatform iOS="0,20,0,0" x:TypeArguments="Thickness"/>
+    </ContentPage.Padding>
+</ContentPage>

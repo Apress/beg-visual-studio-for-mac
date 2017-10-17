@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{1D3799D3-FBB3-401D-B90E-DE4C43E64F24}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsReader/Pages/WebContentPage.xaml.cs">
+    <Files>
+      <File FileName="NewsReader/NewsReaderPage.xaml" Line="38" Column="1" />
+      <File FileName="NewsReader/Pages/WebContentPage.xaml.cs" Line="22" Column="32" />
+      <File FileName="NewsReader/NewsReaderPage.xaml.cs" Line="42" Column="69" />
+      <File FileName="NewsReader/Pages/WebContentPage.xaml" Line="4" Column="46" />
+      <File FileName="NewsReader/Services/ItemService.cs" Line="31" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NewsReader.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.92D183D9-BDEF-4275-A9A2-0E5909D1DDEF" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NewsReader.Droid PreferredExecutionTarget="Android.Nexus" />
+</Properties>

@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{8BBDF4F8-E974-44F6-ABAD-1C5CA993072E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsReader/NewsReaderPage.xaml.cs">
+    <Files>
+      <File FileName="NewsReader/Services/ItemService.cs" Line="59" Column="15" />
+      <File FileName="NewsReader/NewsReaderPage.xaml.cs" Line="47" Column="40" />
+      <File FileName="NewsReader/NewsReaderPage.xaml" Line="39" Column="1" />
+      <File FileName="NewsReader/Pages/WebContentPage.xaml" Line="9" Column="1" />
+      <File FileName="NewsReader/Model/Item.cs" Line="32" Column="9" />
+      <File FileName="NewsReader/IDataAccess.cs" Line="9" Column="1" />
+      <File FileName="Droid/DataAccess.cs" Line="1" Column="1" />
+      <File FileName="iOS/DataAccess.cs" Line="1" Column="1" />
+      <File FileName="NewsReader/ViewModel/ItemViewModel.cs" Line="53" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NewsReader.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.92D183D9-BDEF-4275-A9A2-0E5909D1DDEF" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NewsReader.Droid PreferredExecutionTarget="Android.Nexus" />
+</Properties>

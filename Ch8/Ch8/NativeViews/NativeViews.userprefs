@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{3BF1DE05-96B0-4662-92FF-FB7E68500047}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NativeViews/NativeViewsPage.xaml">
+    <Files>
+      <File FileName="NativeViews/NativeViewsPage.xaml" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.NativeViews.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E559255D-1063-4EAC-8B5A-6A95045E438E" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

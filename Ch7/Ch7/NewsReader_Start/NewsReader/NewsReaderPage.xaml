@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Channel 9 Reader"
+    xmlns:local="clr-namespace:NewsReader" x:Class="NewsReader.NewsReaderPage">
+  <StackLayout>
+    <ActivityIndicator x:Name="NewsActivity" IsVisible="false" IsRunning="false"/>    
+    <ListView x:Name="RssView" ItemsSource="{Binding Items}" 
+            IsPullToRefreshEnabled="True" IsRefreshing="{Binding IsBusy}"
+            Refreshing="Handle_Refreshing"
+            ItemTapped="RssView_ItemTapped">
+      <ListView.SeparatorColor>
+        <OnPlatform x:TypeArguments="Color" iOS="Transparent"/>
+      </ListView.SeparatorColor>
+      <ListView.RowHeight>
+        <OnPlatform x:TypeArguments="x:Int32" iOS="200"/>
+      </ListView.RowHeight>
+      <ListView.HasUnevenRows>
+        <OnPlatform x:TypeArguments="x:Boolean" iOS="false" Android="true"/>
+      </ListView.HasUnevenRows>            
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Padding="2" Orientation="Vertical">
+              <Image Source="{Binding Thumbnail}" HorizontalOptions="Start" />
+              <Label Text="{Binding Title}" FontAttributes="Bold"/>
+              <Label Text="{Binding Author}"/>
+              <Label Text="{Binding PublicationDate}" />
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" Android="0,10,0,0" />   
+    </ContentPage.Padding>
+</ContentPage>

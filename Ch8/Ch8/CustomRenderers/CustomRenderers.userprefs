@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{EFC527D4-75A4-480C-97F7-0A372B0E5B58}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomRenderers/CustomRenderersPage.xaml">
+    <Files>
+      <File FileName="CustomRenderers/SelectableEntry.cs" Line="2" Column="1" />
+      <File FileName="iOS/SelectableEntryRenderer.cs" Line="24" Column="1" />
+      <File FileName="Droid/SelectableEntryRenderer.cs" Line="1" Column="1" />
+      <File FileName="CustomRenderers/CustomRenderersPage.xaml" Line="10" Column="1" />
+      <File FileName="iOS/BackgroundEffect.cs" Line="25" Column="4" />
+      <File FileName="Droid/BackgroundEffect.cs" Line="27" Column="9" />
+      <File FileName="CustomRenderers/BackgroundEffect.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomRenderers.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E559255D-1063-4EAC-8B5A-6A95045E438E" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{D86C0097-3F3B-498E-862B-C603F1E1437B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CrossComputerVision/Controllers/VisionController.cs">
+    <Files>
+      <File FileName="CrossComputerVision/Controllers/VisionController.cs" Line="82" Column="1" />
+      <File FileName="CrossComputerVision/Views/Vision/Index.cshtml" Line="4" Column="1" />
+      <File FileName="CrossComputerVision/Views/Shared/_Layout.cshtml" Line="19" Column="7" />
+      <File FileName="CrossComputerVision/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="CrossComputerVision/Views/Home/Index.cshtml" Line="23" Column="4" />
+      <File FileName="CrossComputerVision/Models/ImageData.cs" Line="11" Column="42" />
+      <File FileName="CrossComputerVision/Views/Vision/Vision.cshtml" Line="8" Column="1" />
+      <File FileName="CrossComputerVision/Views/Home/Contact.cshtml" Line="1" Column="1" />
+      <File FileName="CrossComputerVision/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="CrossComputerVision/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="CrossComputerVision/Views/Shared/Error.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>jsonResponse</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alessandrodelsole/Projects/CrossComputerVision/CrossComputerVision/Views/Vision/Index.cshtml" relfile="CrossComputerVision/Views/Vision/Index.cshtml" line="17" column="1" />
+      <Breakpoint file="/Users/alessandrodelsole/Projects/CrossComputerVision/CrossComputerVision/Controllers/VisionController.cs" relfile="CrossComputerVision/Controllers/VisionController.cs" line="81" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CrossComputerVision PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
